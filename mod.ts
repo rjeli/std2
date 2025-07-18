@@ -4,3 +4,4 @@
  */
 
 export * from "./streams/regex.ts";
+export * from "./streams/json.ts";
