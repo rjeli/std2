@@ -16,7 +16,7 @@ export function defer(fn: () => unknown): AsyncDisposable {
 
 export function scoped<T extends object>(
   value: T,
-  cleanup: (value: T) => Promise<void>,
+  cleanup: (value: T) => unknown,
 ): T & AsyncDisposable {
   return new Proxy(value, {
     get(target, prop, receiver) {
