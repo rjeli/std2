@@ -1,0 +1,21 @@
+{
+  "scriptId": "374",
+  "url": "file:///Users/eli/git/github.com/rjeli/std2/streams/regex.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 1340, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [{ "startOffset": 326, "endOffset": 342, "count": 0 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "RegexStream",
+      "ranges": [{ "startOffset": 346, "endOffset": 1337, "count": 0 }],
+      "isBlockCoverage": false
+    }
+  ]
+}

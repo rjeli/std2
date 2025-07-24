@@ -1,0 +1,50 @@
+{
+  "scriptId": "337",
+  "url": "file:///Users/eli/git/github.com/rjeli/std2/streams/regex.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 1340, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [{ "startOffset": 326, "endOffset": 342, "count": 15 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "RegexStream",
+      "ranges": [
+        { "startOffset": 346, "endOffset": 1337, "count": 15 },
+        { "startOffset": 1106, "endOffset": 1117, "count": 9 },
+        { "startOffset": 1118, "endOffset": 1122, "count": 6 },
+        { "startOffset": 1171, "endOffset": 1181, "count": 9 },
+        { "startOffset": 1182, "endOffset": 1186, "count": 6 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "transform",
+      "ranges": [
+        { "startOffset": 385, "endOffset": 941, "count": 59 },
+        { "startOffset": 519, "endOffset": 889, "count": 92 },
+        { "startOffset": 589, "endOffset": 617, "count": 33 },
+        { "startOffset": 617, "endOffset": 637, "count": 59 },
+        { "startOffset": 637, "endOffset": 679, "count": 50 },
+        { "startOffset": 681, "endOffset": 814, "count": 26 },
+        { "startOffset": 814, "endOffset": 889, "count": 33 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "transform",
+      "ranges": [{ "startOffset": 972, "endOffset": 1014, "count": 44 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "flush",
+      "ranges": [{ "startOffset": 1029, "endOffset": 1060, "count": 15 }],
+      "isBlockCoverage": true
+    }
+  ]
+}

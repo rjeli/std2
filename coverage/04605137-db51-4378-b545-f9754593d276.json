@@ -1,0 +1,33 @@
+{
+  "scriptId": "336",
+  "url": "file:///Users/eli/git/github.com/rjeli/std2/streams/adapters.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 654, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isResponseBody",
+      "ranges": [{ "startOffset": 57, "endOffset": 193, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamFrom",
+      "ranges": [
+        { "startOffset": 201, "endOffset": 653, "count": 1 },
+        { "startOffset": 259, "endOffset": 349, "count": 0 },
+        { "startOffset": 634, "endOffset": 652, "count": 0 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "pull",
+      "ranges": [
+        { "startOffset": 457, "endOffset": 622, "count": 2 },
+        { "startOffset": 533, "endOffset": 614, "count": 1 }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

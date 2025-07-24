@@ -1,0 +1,41 @@
+{
+  "scriptId": "336",
+  "url": "file:///Users/eli/git/github.com/rjeli/std2/streams/adapters.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 654, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isResponseBody",
+      "ranges": [
+        { "startOffset": 57, "endOffset": 193, "count": 4 },
+        { "startOffset": 117, "endOffset": 137, "count": 3 },
+        { "startOffset": 138, "endOffset": 165, "count": 3 },
+        { "startOffset": 166, "endOffset": 190, "count": 3 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamFrom",
+      "ranges": [
+        { "startOffset": 201, "endOffset": 653, "count": 4 },
+        { "startOffset": 259, "endOffset": 349, "count": 1 },
+        { "startOffset": 349, "endOffset": 376, "count": 3 },
+        { "startOffset": 378, "endOffset": 634, "count": 2 },
+        { "startOffset": 634, "endOffset": 652, "count": 1 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "pull",
+      "ranges": [
+        { "startOffset": 457, "endOffset": 622, "count": 8 },
+        { "startOffset": 533, "endOffset": 567, "count": 2 },
+        { "startOffset": 567, "endOffset": 614, "count": 6 }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

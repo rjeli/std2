@@ -1,6 +1,10 @@
 import { assertEquals, assertObjectMatch } from "@std/assert";
 import { delay } from "@std/async";
-import { defer, scoped } from "./mod.ts";
+import { defer, run, scoped } from "./mod.ts";
+
+Deno.test("utils", () => {
+  assertEquals(123, run(() => 123));
+});
 
 Deno.test("defer", async () => {
   const log: string[] = [];

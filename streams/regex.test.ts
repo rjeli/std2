@@ -5,7 +5,14 @@ import { RegexStream } from "./regex.ts";
 
 type Case = readonly [string, string[]];
 
-const tests: { re: RegExp; cases: Case[] }[] = [
+const tests: { re: RegExp | string; cases: Case[] }[] = [
+  {
+    re: "\\d{1,2}",
+    cases: [
+      ["", []],
+      ["12345", ["12", "34", "5"]],
+    ],
+  },
   {
     re: /\b\d+/,
     cases: [

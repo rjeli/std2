@@ -3,10 +3,11 @@
  * @module
  */
 
-import { assertExists } from "@std/assert";
-
+export * from "./assert.ts";
 export * from "./streams/regex.ts";
 export * from "./streams/json.ts";
+
+export const run: <T>(f: () => T) => T = (f) => f();
 
 export function defer(fn: () => unknown): AsyncDisposable {
   return {
@@ -28,9 +29,4 @@ export function scoped<T extends object>(
       return Reflect.get(target, prop, receiver);
     },
   }) as T & AsyncDisposable;
-}
-
-export function mustExist<T>(value: T | null | undefined, msg?: string): T {
-  assertExists(value, msg);
-  return value;
 }

@@ -8,7 +8,7 @@ export class RegexStream extends TransformStream<string, string> {
   #re: RegExp;
   #buf: string = "";
 
-  constructor(re: string | RegExp) {
+  constructor(re: RegExp | string) {
     const transform = (
       chunk: string,
       ctl: TransformStreamDefaultController,

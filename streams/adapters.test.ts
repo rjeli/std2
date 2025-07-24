@@ -1,4 +1,4 @@
-import { assertEquals } from "@std/assert";
+import { assertEquals, assertThrows } from "@std/assert";
 import { readableStreamFrom } from "./adapters.ts";
 
 Deno.test("it works", async () => {
@@ -26,4 +26,5 @@ Deno.test("it works", async () => {
     ),
     [1, 2, 3],
   );
+  assertThrows(() => readableStreamFrom({} as string));
 });

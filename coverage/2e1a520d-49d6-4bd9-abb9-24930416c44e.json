@@ -1,0 +1,44 @@
+{
+  "scriptId": "337",
+  "url": "file:///Users/eli/git/github.com/rjeli/std2/mod.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 566, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "run",
+      "ranges": [{ "startOffset": 184, "endOffset": 192, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "defer",
+      "ranges": [{ "startOffset": 201, "endOffset": 300, "count": 3 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 237, "endOffset": 293, "count": 3 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "scoped",
+      "ranges": [{ "startOffset": 308, "endOffset": 565, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        { "startOffset": 374, "endOffset": 557, "count": 2 },
+        { "startOffset": 445, "endOffset": 556, "count": 1 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 462, "endOffset": 492, "count": 1 }],
+      "isBlockCoverage": true
+    }
+  ]
+}

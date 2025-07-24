@@ -1,0 +1,21 @@
+{
+  "scriptId": "337",
+  "url": "file:///Users/eli/git/github.com/rjeli/std2/streams/json.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 206, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "JsonParseStream",
+      "ranges": [{ "startOffset": 57, "endOffset": 203, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "transform",
+      "ranges": [{ "startOffset": 101, "endOffset": 191, "count": 1 }],
+      "isBlockCoverage": true
+    }
+  ]
+}
