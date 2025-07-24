@@ -3,6 +3,8 @@
  * @module
  */
 
+export type * from "./types.ts";
+
 export * from "./assert.ts";
 export * from "./streams/regex.ts";
 export * from "./streams/json.ts";

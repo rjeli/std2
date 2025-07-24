@@ -1,0 +1,61 @@
+{
+  "scriptId": "334",
+  "url": "file:///Users/eli/git/github.com/rjeli/std2/assert.test.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 753, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 155, "endOffset": 312, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 176, "endOffset": 194, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 212, "endOffset": 235, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 341, "endOffset": 617, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [{ "startOffset": 365, "endOffset": 366, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Foo",
+      "ranges": [{ "startOffset": 372, "endOffset": 411, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 522, "endOffset": 548, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "_asBar",
+      "ranges": [{ "startOffset": 588, "endOffset": 614, "count": 0 }],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 642, "endOffset": 750, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 727, "endOffset": 746, "count": 1 }],
+      "isBlockCoverage": true
+    }
+  ]
+}

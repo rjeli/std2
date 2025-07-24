@@ -1,0 +1,26 @@
+{
+  "scriptId": "373",
+  "url": "file:///Users/eli/git/github.com/rjeli/std2/assert.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 392, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "asExists",
+      "ranges": [{ "startOffset": 77, "endOffset": 154, "count": 0 }],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "asInstanceOf",
+      "ranges": [{ "startOffset": 197, "endOffset": 284, "count": 0 }],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "asRecord",
+      "ranges": [{ "startOffset": 292, "endOffset": 391, "count": 0 }],
+      "isBlockCoverage": false
+    }
+  ]
+}
